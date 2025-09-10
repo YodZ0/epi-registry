@@ -7,6 +7,13 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 BASE_DIR = Path(__file__).resolve().parent.parent  # epi-registry/backend
 
 
+class JSONDataConfig(BaseModel):
+    data_dir: Path = BASE_DIR / "src" / "data"
+    drugs_file_name: str = "drugs.json"
+    seizure_drug_map_file_name: str = "seizure_drug_map.json"
+    modifier_rules_file_name: str = "modifier_rules.json"
+
+
 class RunConfig(BaseModel):
     host: str = "127.0.0.1"
     port: int = 8000
@@ -44,6 +51,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
     base_dir: Path = BASE_DIR
+    json_data: JSONDataConfig = JSONDataConfig()
     debug: bool
     cors_origins: list[str]
     run: RunConfig = RunConfig()
