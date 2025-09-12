@@ -1,0 +1,3283 @@
+{
+  "VPA": [
+    {
+      "modifier": "female-fertile",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 3,
+      "max": 4
+    },
+    {
+      "modifier": "female-fertile",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 2
+    },
+    {
+      "modifier": "female-fertile",
+      "seizure": "abcense",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 3
+    },
+    {
+      "modifier": "female-fertile",
+      "seizure": "myoclinic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 3
+    },
+    {
+      "modifier": "female-fertile",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 3
+    },
+    {
+      "modifier": "female-fertile",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 3
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "myiclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "coagulopathy",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "coagulopathy",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "coagulopathy",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "coagulopathy",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "LTG": [
+    {
+      "modifier": "female-fertile",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 3,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "myiclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 0,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 0,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 0,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 0,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 0,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 0,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "LEV": [
+    {
+      "modifier": "female-fertile",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 3,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "myiclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "LCM": [
+    {
+      "modifier": "age-over-65",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "myiclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "GBP": [
+    {
+      "modifier": "age-over-65",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "myiclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "age-over-65",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "hepatic-failure",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "CBZ": [
+    {
+      "modifier": "neutropenia",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "myiclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "myiclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "PHT": [
+    {
+      "modifier": "neutropenia",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "myiclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "neutropenia",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "myiclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "PER": [
+    {
+      "modifier": "diabetes",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "myiclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "diabetes",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "PB": [
+    {
+      "modifier": "irritability",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "TPM": [
+    {
+      "modifier": "irritability",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "irritability",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "migraine",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "ACT": [
+    {
+      "modifier": "renal-stones",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "ZNS": [
+    {
+      "modifier": "renal-stones",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-stones",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "ESL": [
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "OXC": [
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "brain-tumor-chemo-radio",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "oral-contraceptive",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 2,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "drug-allergy",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "BRV": [
+    {
+      "modifier": "comedications",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "comedications",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "ETS": [
+    {
+      "modifier": "comedications",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "PGB": [
+    {
+      "modifier": "obesity",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "obesity",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "CLB": [
+    {
+      "modifier": "renal-failure",
+      "seizure": "absence",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "gtc",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "focal",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "myoclonic",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-over-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "renal-failure",
+      "seizure": "unknown-under-21",
+      "action": "upgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "CNZ": [
+    {
+      "modifier": "depression",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ],
+  "NTZ": [
+    {
+      "modifier": "depression",
+      "seizure": "absence",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "gtc",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "focal",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "myoclonic",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-over-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    },
+    {
+      "modifier": "depression",
+      "seizure": "unknown-under-21",
+      "action": "downgrade",
+      "steps": 1,
+      "max": 1
+    }
+  ]
+}
