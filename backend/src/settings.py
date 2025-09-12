@@ -9,9 +9,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent  # epi-registry/backend
 
 class JSONDataConfig(BaseModel):
     data_dir: Path = BASE_DIR / "src" / "data"
-    drugs_file_name: str = "drugs.json"
-    seizure_drug_map_file_name: str = "seizure_drug_map.json"
-    modifier_rules_file_name: str = "modifier_rules.json"
+
+    # Raw data
+    drugs_filename: str = "drugs.json"
+    modifiers_filename: str = "modifiers.json"
+    seizure_types_filename: str = "seizure_types.json"
+
+    seizure_drug_map_filename: str = "seizure_drug_map.json"
+    modifier_rules_filename: str = "modifier_rules.json"
 
 
 class RunConfig(BaseModel):
