@@ -1,4 +1,10 @@
+import logging
 from fastapi import APIRouter
+
+from .service import ASMService
+from .schemas import ASMSelectionRequestSchema, ASMSelectionResponseSchema
+
+logger = logging.getLogger(__name__)
 
 __all__ = ("router",)
 
@@ -10,7 +16,9 @@ router = APIRouter(
 
 
 @router.post("/selection")
-async def select_asm():
+async def select_asm(
+    asm_selection: ASMSelectionRequestSchema,
+) -> ASMSelectionResponseSchema:
     """
     Selects antiseizure medications (ASMs) based on seizure type(s) and
     patient-specific clinical modifiers.
@@ -29,4 +37,7 @@ async def select_asm():
     Drugs inside each tier are sorted alphabetically; every entry includes
     short rationale text (“why this tier”).
     """
-    return {"msg": "Hello world!"}
+    asm_service = ASMService()
+    proposed_selection = asm_service.select(asm_selection)
+    logger.debug("Proposed selection: %s", proposed_selection)
+    return proposed_selection
