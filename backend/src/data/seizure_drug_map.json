@@ -1,0 +1,52 @@
+{
+  "absence": {
+    "1": ["ETS", "VPA"],
+    "2": ["LTG"],
+    "3": ["LEV", "ZNS", "ACT", "CLB", "CLN"]
+  },
+  "myoclonic": {
+    "1": ["CLN", "VPA", "LEV"],
+    "2": ["CLB"],
+    "3": ["TPM", "ZNS", "PB", "NTR"]
+  },
+  "gtc": {
+    "1": ["VPA"],
+    "2": ["LTG", "LEV"],
+    "3": ["OXC", "CLB", "ZNS", "LCM", "TPM", "PB", "PER", "CBZ", "PHT", "BRV"]
+  },
+  "focal": {
+    "1": ["LEV", "CBZ", "LTG", "OXC", "ESL", "LCM"],
+    "2": ["TPM", "VPA", "PER", "PHT", "BRV", "ZNS"],
+    "3": ["CLB", "PB", "GBP", "PGB"]
+  },
+  "gtc+myoclonic": {
+    "1": ["VPA"],
+    "2": ["LEV"],
+    "3": ["CLN", "LTG", "ZNS", "CLB", "TPM", "PB", "PER", "PHT", "LCS", "BRV"]
+  },
+  "gtc+absence": {
+    "1": ["VPA"],
+    "2": ["LTG", "LEV"],
+    "3": ["TPM", "ZNS", "CLB"]
+  },
+  "gtc+myoclonic+absence": {
+    "1": ["VPA"],
+    "2": ["LTG", "LEV"],
+    "3": ["TPM", "ZNS", "CLB", "CLN"]
+  },
+  "myoclonic+absence": {
+    "1": ["VPA", "ETS"],
+    "2": ["LTG", "LEV"],
+    "3": ["TPM", "ZNS", "CLB", "CLN"]
+  },
+  "unknown-older-21": {
+    "1": ["LEV", "CBZ", "LTG", "OXC", "ESL", "LCM"],
+    "2": ["VPA", "PER", "PHT", "BRV", "CLB", "TPM", "ZNS"],
+    "3": ["PB", "GBP", "PGB"]
+  },
+  "unknown-under-21": {
+    "1": ["VPA", "LTG", "LEV"],
+    "2": ["CLB", "CBZ", "PER", "ESL", "OXC", "LCM"],
+    "3": ["PB", "TPM", "ZNS"]
+  }
+}
