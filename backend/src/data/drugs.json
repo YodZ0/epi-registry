@@ -1,0 +1,107 @@
+[
+  {
+    "id": "LEV",
+    "name": "Levetiracetam",
+    "allowed": true
+  },
+  {
+    "id": "CBZ",
+    "name": "Carbamazepine",
+    "allowed": true
+  },
+  {
+    "id": "LTG",
+    "name": "Lamotrigine",
+    "allowed": true
+  },
+  {
+    "id": "OXC",
+    "name": "Oxcarbazepine",
+    "allowed": true
+  },
+  {
+    "id": "ESL",
+    "name": "Eslicarbazepine acetate",
+    "allowed": true
+  },
+  {
+    "id": "LCM",
+    "name": "Lacosamide",
+    "allowed": true
+  },
+  {
+    "id": "TPM",
+    "name": "Topiramate",
+    "allowed": true
+  },
+  {
+    "id": "VPA",
+    "name": "Valproic acid",
+    "allowed": true
+  },
+  {
+    "id": "PER",
+    "name": "Perampanel",
+    "allowed": true
+  },
+  {
+    "id": "PHT",
+    "name": "Phenytoin",
+    "allowed": true
+  },
+  {
+    "id": "BRV",
+    "name": "Brivaracetam",
+    "allowed": true
+  },
+  {
+    "id": "ZNS",
+    "name": "Zonisamide",
+    "allowed": true
+  },
+  {
+    "id": "CLB",
+    "name": "Clobazam",
+    "allowed": true
+  },
+  {
+    "id": "PB",
+    "name": "Phenobarbital",
+    "allowed": true
+  },
+  {
+    "id": "GBP",
+    "name": "Gabapentin",
+    "allowed": true
+  },
+  {
+    "id": "PGB",
+    "name": "Pregabalin",
+    "allowed": true
+  },
+  {
+    "id": "ETS",
+    "name": "Ethosuximide",
+    "allowed": true
+  },
+  {
+    "id": "ACT",
+    "name": "Acetazolamide",
+    "allowed": true
+  },
+  {
+    "id": "CLN",
+    "name": "Clonazepam",
+    "allowed": true
+  },
+  {
+    "id": "NTR",
+    "name": "Nitrazepam",
+    "allowed": true
+  },
+  {
+    "id": "LCS",
+    "name": "Lacosamide (repeat for combo listings)",
+    "allowed": false
+  }
+]

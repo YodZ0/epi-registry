@@ -1,0 +1,74 @@
+import json
+import logging
+from typing import List, Dict
+
+from src.settings import settings
+
+logger = logging.getLogger(__name__)
+
+DATA_DIR = settings.json_data.data_dir
+
+DRUGS_DATA_FILE = settings.json_data.drugs_filename
+MODIFIERS_DATA_FILE = settings.json_data.modifiers_filename
+SEIZURE_TYPES_DATA_FILE = settings.json_data.seizure_types_filename
+
+SEIZURE_DRUG_MAP_FILE = settings.json_data.seizure_drug_map_filename
+MODIFIER_RULES_FILE = settings.json_data.modifier_rules_filename
+
+
+def get_drugs() -> Dict[str, dict]:
+    try:
+        with open(DATA_DIR / DRUGS_DATA_FILE, encoding="utf-8") as f:
+            _DRUGS: Dict[str, dict] = json.load(f)
+            logger.debug("Success read %r file.", DRUGS_DATA_FILE)
+        return _DRUGS
+    except Exception as e:
+        logger.exception("Failed to read file %r", DRUGS_DATA_FILE, exc_info=e)
+        return {}
+
+
+def get_modifiers() -> List[Dict[str, str]] | None:
+    try:
+        with open(DATA_DIR / MODIFIERS_DATA_FILE, encoding="utf-8") as f:
+            _MODIFIERS: List[Dict[str, str]] = json.load(f)
+            logger.debug("Success read %r file.", MODIFIERS_DATA_FILE)
+        return _MODIFIERS
+    except Exception as e:
+        logger.exception("Failed to read file %r", MODIFIERS_DATA_FILE, exc_info=e)
+        return None
+
+
+def get_seizure_types() -> List[Dict[str, str]] | None:
+    try:
+        with open(DATA_DIR / SEIZURE_TYPES_DATA_FILE, encoding="utf-8") as f:
+            _SEIZURE_TYPES: List[Dict[str, str]] = json.load(f)
+            logger.debug("Success read %r file.", SEIZURE_TYPES_DATA_FILE)
+        return _SEIZURE_TYPES
+    except Exception as e:
+        logger.exception("Failed to read file %r", SEIZURE_TYPES_DATA_FILE, exc_info=e)
+        return None
+
+
+def get_seizure_map() -> Dict[str, Dict[int, List[str]]]:
+    try:
+        with open(DATA_DIR / SEIZURE_DRUG_MAP_FILE) as f:
+            _SEIZURE_MAP: Dict[str, Dict[int, List[str]]] = {
+                k: {int(tier): drugs for tier, drugs in v.items()}
+                for k, v in json.load(f).items()
+            }
+            logger.debug("Success read %r file.", SEIZURE_DRUG_MAP_FILE)
+        return _SEIZURE_MAP
+    except Exception as e:
+        logger.exception("Failed to read file %r", SEIZURE_DRUG_MAP_FILE, exc_info=e)
+        return {}
+
+
+def get_modifier_rules() -> Dict[str, List[dict]]:
+    try:
+        with open(DATA_DIR / MODIFIER_RULES_FILE) as f:
+            _MODIFIER_RULES: Dict[str, List[dict]] = json.load(f)
+            logger.debug("Success read %r file.", MODIFIER_RULES_FILE)
+        return _MODIFIER_RULES
+    except Exception as e:
+        logger.exception("Failed to read file %r", MODIFIER_RULES_FILE, exc_info=e)
+        return {}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "female-fertile",
+    "label": "Женщина до менопаузы"
+  },
+  {
+    "id": "age-over-65",
+    "label": "Возраст > 65 лет"
+  },
+  {
+    "id": "neutropenia",
+    "label": "Нейтропения"
+  },
+  {
+    "id": "diabetes",
+    "label": "Сахарный диабет"
+  },
+  {
+    "id": "irritability",
+    "label": "Раздражительность / агрессия"
+  },
+  {
+    "id": "migraine",
+    "label": "Мигрень (≥ 4 приступа/мес)"
+  },
+  {
+    "id": "renal-stones",
+    "label": "Камни в почках"
+  },
+  {
+    "id": "brain-tumor-chemo-radio",
+    "label": "Опухоль мозга, требующая химио-/радиотерапии"
+  },
+  {
+    "id": "hepatic-failure",
+    "label": "Печёночная недостаточность"
+  },
+  {
+    "id": "renal-failure",
+    "label": "Почечная недостаточность"
+  },
+  {
+    "id": "depression",
+    "label": "Депрессия"
+  },
+  {
+    "id": "oral-contraceptive",
+    "label": "Приём контрацептивов"
+  },
+  {
+    "id": "coagulopathy",
+    "label": "Коагулопатия / кровотечения"
+  },
+  {
+    "id": "comedications",
+    "label": "Приём других препаратов (кроме контрацептивов)"
+  },
+  {
+    "id": "obesity",
+    "label": "Ожирение (ИМТ ≥ 30)"
+  },
+  {
+    "id": "drug-allergy",
+    "label": "Аллергия на любое лекарство"
+  }
+]
